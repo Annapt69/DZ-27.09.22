@@ -14,8 +14,7 @@ int Lenght = array.Length;
 
 if (array.Length == 5)
 {
-    if (array[0] == array[4])
-    if (array[1] == array[3])
+    if (array[0] == array[4] && array[1] == array[3])
     {
         Console.WriteLine ($"Введенное число является палиндромом");
     }
@@ -23,4 +22,8 @@ if (array.Length == 5)
     {
         Console.WriteLine ($"Введенное число не является палиндромом");
     }    
+}
+else
+{
+    Console.WriteLine("Вы ввели неверное значение, введите пятизначное число");
 }
