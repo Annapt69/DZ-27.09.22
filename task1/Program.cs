@@ -22,8 +22,5 @@ if (array.Length == 5)
     else
     {
         Console.WriteLine ($"Введенное число не является палиндромом");
-    }
+    }    
 }
-   
-
-
